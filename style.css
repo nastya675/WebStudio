@@ -12,7 +12,10 @@ body {
     background: #FFFFFF;
     margin: 0 auto;
 }
-
+.header{
+    width: 1600px;
+    height: 80px;
+}
 .logo {
     display: flex;
     margin-top: 24px;
@@ -87,7 +90,7 @@ body {
     width: 1600px;
     height: 600px;
     background: #2F303A;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 .main-name {
@@ -253,7 +256,7 @@ body {
     width: 1600px;
     height: 648px;
     background: #F5F4FA;
-    margin-top: 94px;
+    margin-top: 50px;
 
 }
 
@@ -319,7 +322,7 @@ body {
 
 .foot {
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: -33px;
     width: 1600px;
     height: 252px;
     background: #2F303A;

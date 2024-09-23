@@ -12,15 +12,17 @@ body {
     background: #FFFFFF;
     margin: 0 auto;
 }
-.header{
+
+.header {
     width: 1440px;
     height: 80px;
 }
+
 .logo {
     display: flex;
     margin-top: 24px;
     font-size: 26px;
-    margin-left: 215px;
+    margin-left: 120px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.17;
@@ -34,7 +36,7 @@ body {
     display: flex;
     gap: 50px;
     list-style-type: none;
-    margin-left: 453px;
+    margin-left: 350px;
     margin-top: -26px;
     margin-bottom: 25px;
 }
@@ -121,26 +123,30 @@ body {
     font-size: 16px;
     line-height: 1.8;
 }
-.main-features{
+
+.main-features {
     display: flex;
     justify-content: center;
     margin-top: 94px;
     gap: 30px;
     height: 98px;
 }
-.main-feature{
+
+.main-feature {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.main-feature-name{
+
+.main-feature-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: #212121;
     font-size: 14px;
     line-height: 16.41px;
 }
-.main-feature-text{
+
+.main-feature-text {
     font-family: "Roboto", sans-serif;
     width: 270px;
     font-weight: 400;
@@ -148,15 +154,16 @@ body {
     line-height: 24px;
     color: #757575;
 }
+
 .main-photos {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     align-items: center;
     gap: 40px;
     height: 386px;
 }
 
-.main-photos-title{
+.main-photos-title {
     color: #212121;
     font-size: 36px;
     width: 366px;
@@ -169,9 +176,9 @@ body {
 
 .main-photo {
     flex-basis: calc((100% - 370px) / 3);
-   width: 370px;
-   height: 294px;
-   padding: 10px;
+    width: 370px;
+    height: 294px;
+    padding: 10px;
 }
 
 .main-team {
@@ -210,23 +217,99 @@ body {
 
 }
 
-.main-team-member-name {
+.main-team-member-name1::before {
+    content: "";
+    background-image: url("img1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 260px;
+    margin-top: -30px;
+}
+
+.main-team-member-name1 {
     display: flex;
     justify-content: center;
-    height: 19px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
     font-size: 16px;
     color: #212121;
     margin-top: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    line-height: 1.17;
+}
+.main-team-member-name2::before {
+    content: "";
+    background-image: url("img2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 260px;
+    margin-top: -30px;
 }
 
+.main-team-member-name2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    color: #212121;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.main-team-member-name3::before {
+    content: "";
+    background-image: url("img3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 260px;
+    margin-top: -30px;
+}
+
+.main-team-member-name3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    color: #212121;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.main-team-member-name4::before {
+    content: "";
+    background-image: url("img4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 260px;
+    margin-top: -30px;
+}
+
+.main-team-member-name4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    color: #212121;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
 .main-team-member-about {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    height: 19px;
     font-size: 16px;
     color: #757575;
     margin-top: 10px;
@@ -262,19 +345,22 @@ body {
     width: 231px;
     height: 81px;
 }
-.footer-content-place{
+
+.footer-content-place {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
-.footer-content-email{
+
+.footer-content-email {
     font-size: 14px;
     color: #FFFFFF99;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
-.footer-content-numder{
+
+.footer-content-numder {
     font-size: 14px;
     color: #FFFFFF99;
     font-family: "Roboto", sans-serif;

@@ -219,7 +219,7 @@ body {
 
 .main-team-member-name1::before {
     content: "";
-    background-image: url("img1.jpg");
+    background-image: url("webstudio-employee1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 270px;
@@ -241,7 +241,7 @@ body {
 }
 .main-team-member-name2::before {
     content: "";
-    background-image: url("img2.jpg");
+    background-image: url("webstudio-employee2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 270px;
@@ -263,7 +263,7 @@ body {
 }
 .main-team-member-name3::before {
     content: "";
-    background-image: url("img3.jpg");
+    background-image: url("webstudio-employee3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 270px;
@@ -286,7 +286,7 @@ body {
 
 .main-team-member-name4::before {
     content: "";
-    background-image: url("img4.jpg");
+    background-image: url("webstudio-employee4.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 270px;

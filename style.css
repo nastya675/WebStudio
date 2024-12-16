@@ -256,6 +256,29 @@ fill: #757575;
     margin-right: 8px;
 }
 
+.photos-mini-group{
+    position: relative;
+    box-sizing: border-box;
+}
+.photos-mini-group-overlay{
+    font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+position: absolute;
+width: 370px;
+height: 70px;
+opacity: 1;
+background: #2F303ACC;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -73px;
+}
+
 .main-photos-title {
     color: #212121;
     font-size: 36px;
@@ -271,7 +294,12 @@ fill: #757575;
     flex-basis: calc((100% - 370px) / 3);
     width: 370px;
     height: 294px;
-    padding: 10px;
+    
+}
+
+.main-photos-group{
+    display: flex;
+    gap: 30px;
 }
 
 .main-team {

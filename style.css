@@ -146,6 +146,178 @@ fill: #757575;
     cursor: pointer;
 }
 
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.backdrop.is-hidden{
+    opacity: 0;
+  pointer-events: none;
+}
+
+.main-modal-window{
+    width: 528px;
+height: 581px;
+text-align: center;
+border-radius: 4px;
+position: absolute;
+background: #FFFFFF;
+box-shadow: 0px 2px 1px 0px #00000033;
+box-shadow: 0px 1px 1px 0px #00000024;
+box-shadow: 0px 1px 3px 0px #0000001F;
+top: 221px;
+left: 750px;
+}
+
+.main-modal-title{
+    font-family: "Roboto", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+margin-top: 2px;
+}
+
+.button-close-w{
+  background: none;
+  cursor: pointer;
+  border: none;
+  width: 30px;
+height: 30px;
+margin-top: 8px;
+margin-left: 460px;
+}
+
+.mm-form{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.main-modal-input-wrappers{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+width: 448px;
+height: 342px;
+}
+
+.mm-input:hover , .mm-input-comment:hover{
+    border: 1px solid #2196F3;
+}
+
+.mm-input-wrapper{
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+
+.mm-label {
+	font-family: "Roboto", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #757575;
+}
+
+.mm-input {
+	width: 448px;
+height: 40px;
+border: 1px solid #21212133;
+border-radius: 4px;
+}
+
+.mm-input-comment{
+    width: 448px;
+    height: 120px;
+    border: 1px solid #21212133;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #75757580;
+    padding-left: 16px;
+    
+}
+
+
+
+.mm-terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.mm-terms-checkbox{
+    width: 16px;
+height: 15px;
+cursor: pointer;
+}
+
+.mm-terms-text{
+    font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+}
+
+.mm-terms-link{
+    color: #2196F3;
+    font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+
+}
+
+.mm-button-submit{
+    width: 200px;
+height: 50px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px #00000026;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+color: #FFFFFF;
+text-decoration-skip-ink: none;
+border: none;
+cursor: pointer;
+}
+
+.button-close-pic:hover{
+    box-shadow: 0px 0px 71px -9px rgba(33,150,243,1);
+}
+
 .main-features {
     display: flex;
     justify-content: center;
@@ -534,4 +706,68 @@ height: 80px;
 margin-left: 516px;
 margin-top: -130px;
 
+}
+
+.footer-join-form{
+    margin-left: 815px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+margin-top: -80px;
+}
+
+.footer-join-form-wrapper{
+display: flex;
+}
+
+.footer-join-form-title{
+    font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+text-decoration-skip-ink: none;
+text-transform: uppercase;
+}
+
+.footer-join-form-input{
+    width: 358px;
+height: 50px;
+border: 1px solid #FFFFFF4D;
+box-shadow: 0px 4px 4px 0px #00000026;
+border-radius: 4px;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF99;
+text-decoration-skip-ink: none;
+background: #2F303A;
+padding-left: 16px;
+}
+
+
+.footer-join-form-button{
+    width: 200px;
+height: 50px;
+background: #2196F3;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px #00000026;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+color: #FFFFFF;
+text-decoration-skip-ink: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: 12px;
 }

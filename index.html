@@ -21,28 +21,66 @@
             </ul>
             <ul class="nav-contacts">
                 <li><a href="#"><svg class="nav-contacts-svg">
-                    <use xlink:href="./symbol-defs.svg#icon-mail"></use>
-                </svg></a></li>
+                            <use xlink:href="./symbol-defs.svg#icon-mail"></use>
+                        </svg></a></li>
                 <li><a href="#"><svg class="nav-contacts-svg">
-                    <use xlink:href="./symbol-defs.svg#icon-tel"></use>
-                </svg></a></li>
+                            <use xlink:href="./symbol-defs.svg#icon-tel"></use>
+                        </svg></a></li>
             </ul>
         </header>
         <main class="main">
             <section class="main-box">
                 <div class="main-box-info">
-                <h1 class="main-box-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                <button class="main-box-button">Замовити послугу</button>
-            </div>
+                    <h1 class="main-box-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                    <button data-modal-open class="main-box-button">Замовити послугу</button>
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="main-modal-window">
+                            <button data-modal-close class="button-close-w"><img src="./scr/img/button-close-w.png"
+                                    alt="" class="button-close-pic"></button>
+                            <h3 class="main-modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+                            <form action="" class="mm-form">
+                                <div class="main-modal-input-wrappers">
+                                    <div class="mm-input-wrapper">
+                                        <label for="full-name" class="mm-label">Ім'я</label>
+                                        <input type="text" name="text" placeholder="" class="mm-input">
+                                    </div>
+                                    <div class="mm-input-wrapper">
+                                        <label for="deadline" class="mm-label">Телефон</label>
+                                        <input type="tel" name="tel" placeholder="" class="mm-input">
+                                    </div>
+                                    <div class="mm-input-wrapper">
+                                        <label for="email" class="mm-label">Пошта</label>
+                                        <input type="email" name="email" placeholder="" class="mm-input" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                                    </div>
+                                    <div class="mm-input-wrapper">
+                                        <label for="message" class="mm-label">Коментар</label>
+                                        <input type="text" name="message" placeholder="Введіть текст"
+                                            class="mm-input-comment">
+                                    </div>
+                                </div>
+                                <div class="mm-terms">
+                                    <input required type="checkbox" class="mm-terms-checkbox">
+                                    <p class="mm-terms-text">Погоджуюся з розсилкою та приймаю</p>
+                                    <a href="#" class="mm-terms-link">Умови договору</a>
+                                </div>
+                                <button data-modal-close class="mm-button-submit" type="submit">Відправити</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
             </section>
             <section class="main-features">
                 <div class="main-feature">
                     <div class="main-feature-name1">УВАГА ДО ДЕТАЛЕЙ</div>
-                    <div class="main-feature-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</div>
+                    <div class="main-feature-text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                        позиції.</div>
                 </div>
                 <div class="main-feature">
                     <div class="main-feature-name2">ПУНКТУАЛЬНІСТЬ</div>
-                    <div class="main-feature-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</div>
+                    <div class="main-feature-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+                        себе.</div>
                 </div>
                 <div class="main-feature">
                     <div class="main-feature-name3">ПЛАНУВАННЯ</div>
@@ -50,21 +88,22 @@
                 </div>
                 <div class="main-feature">
                     <div class="main-feature-name4">СУЧАСНІ ТЕХНОЛОГІЇ</div>
-                    <div class="main-feature-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</div>
+                    <div class="main-feature-text">Значимість цих проблем настільки очевидна, що реалізація планових
+                        завдань.</div>
                 </div>
             </section>
             <section class="main-photos">
                 <div class="main-photos-title">Чим ми займаємося</div>
-                <div class="main-photos-group"> 
-                    <div class="photos-mini-group"> 
+                <div class="main-photos-group">
+                    <div class="photos-mini-group">
                         <img src="./scr/img/webstudio-speciality1.jpg" alt="" class="main-photo">
                         <h3 class="photos-mini-group-overlay">Десктопні додатки</h3>
                     </div>
-                    <div class="photos-mini-group"> 
+                    <div class="photos-mini-group">
                         <img src="./scr/img/webstudio-speciality2.jpg" alt="" class="main-photo">
                         <h3 class="photos-mini-group-overlay">Мобільні додатки</h3>
                     </div>
-                    <div class="photos-mini-group"> 
+                    <div class="photos-mini-group">
                         <img src="./scr/img/webstudio-speciality3.jpg" alt="" class="main-photo">
                         <h3 class="photos-mini-group-overlay">Дизайнерські рішення</h3>
                     </div>
@@ -75,11 +114,11 @@
                 <div class="main-team-members">
                     <div class="main-team-member">
                         <img src="./scr/img/webstudio-employee1.jpg" alt="" class="main-team-member-photo">
-                        <div class="main-team-member-name" >Ігор Дем'яненко</div>
+                        <div class="main-team-member-name">Ігор Дем'яненко</div>
                         <div class="main-team-member-about">Product Designer</div>
                         <ul class="main-team-member-links">
                             <li class="main-team-member-link">
-                                <a href="https://www.instagram.com/"  target="_blank">
+                                <a href="https://www.instagram.com/" target="_blank">
                                     <svg class="member-sprite">
                                         <use xlink:href="./symbol-defs.svg#icon-instagram"></use>
                                     </svg>
@@ -114,7 +153,7 @@
                         <div class="main-team-member-about">Frontend Developer</div>
                         <ul class="main-team-member-links">
                             <li class="main-team-member-link">
-                                <a href="https://www.instagram.com/"  target="_blank">
+                                <a href="https://www.instagram.com/" target="_blank">
                                     <svg class="member-sprite">
                                         <use xlink:href="./symbol-defs.svg#icon-instagram"></use>
                                     </svg>
@@ -149,7 +188,7 @@
                         <div class="main-team-member-about">Marketing</div>
                         <ul class="main-team-member-links">
                             <li class="main-team-member-link">
-                                <a href="https://www.instagram.com/"  target="_blank">
+                                <a href="https://www.instagram.com/" target="_blank">
                                     <svg class="member-sprite">
                                         <use xlink:href="./symbol-defs.svg#icon-instagram"></use>
                                     </svg>
@@ -184,7 +223,7 @@
                         <div class="main-team-member-about">UI Designer</div>
                         <ul class="main-team-member-links">
                             <li class="main-team-member-link">
-                                <a href="https://www.instagram.com/"  target="_blank">
+                                <a href="https://www.instagram.com/" target="_blank">
                                     <svg class="member-sprite">
                                         <use xlink:href="./symbol-defs.svg#icon-instagram"></use>
                                     </svg>
@@ -251,7 +290,7 @@
                     <h2 class="footer-links-title">ПРИЄДНУЙТЕСЬ</h2>
                     <ul class="footer-links">
                         <li class="footer-link">
-                            <a href="https://www.instagram.com/"  target="_blank">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <svg class="footer-sprite">
                                     <use xlink:href="./symbol-defs.svg#icon-instagram"></use>
                                 </svg>
@@ -280,10 +319,20 @@
                         </li>
                     </ul>
                 </div>
+                <form action="" class="footer-join-form">
+                    <legend class="footer-join-form-title">Підпишіться на розсилку</legend>
+                    <div class="footer-join-form-wrapper">
+                    <input type="email" class="footer-join-form-input" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="E-mail">
+                    <button class="footer-join-form-button" type="submit">Підписатися <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white"/>
+                        </svg>
+                        </button>
+                    </div>
+                </form>
             </section>
         </footer>
     </div>
-
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

@@ -172,6 +172,10 @@ fill: #757575;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    opacity:1;
+    transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms,
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
 .backdrop.is-hidden{
@@ -189,8 +193,8 @@ background: #FFFFFF;
 box-shadow: 0px 2px 1px 0px #00000033;
 box-shadow: 0px 1px 1px 0px #00000024;
 box-shadow: 0px 1px 3px 0px #0000001F;
-top: 221px;
-left: 750px;
+transform: translate(110%, 30%) scale(1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
 .main-modal-title{

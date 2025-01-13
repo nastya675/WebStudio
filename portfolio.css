@@ -159,6 +159,7 @@ body {
 
 .portfolio-box:hover .overlay-portfolio{
     transform: translatey(0);
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-portfolio-p {
@@ -324,6 +325,7 @@ body {
 
 .footer-link:hover {
     background: #2196F3;
+    transition: background cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sprite {
@@ -334,6 +336,7 @@ body {
 
 .footer-sprite:hover {
     fill: #FFFFFF;
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links-title {
